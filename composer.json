@@ -1,0 +1,37 @@
+{
+    "name": "duroom/edit-posts",
+    "description": "Edit Posts button always visible",
+    "keywords": [
+        "post controls"
+    ],
+    "type": "duroom-extension",
+    "license": "MIT",
+    "require": {
+        "duroom/core": "^1.2"
+    },
+    "require-dev": {
+        "duroom/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "NKDuy",
+            "email": "kn145660@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DuRoom\\EditPostsButton\\": "src/"
+        }
+    },
+    "extra": {
+        "duroom-extension": {
+            "title": "Edit Posts Buttons",
+            "category": "",
+            "icon": {
+                "name": "fas fa-sliders-h",
+                "backgroundColor": "white",
+                "color": "red"
+            }
+        }
+    }
+}

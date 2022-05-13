@@ -1,0 +1,5 @@
+duroom-edit-posts:
+  forum:
+    hidepost: Hide Post
+    editpost: Edit
+    deleteforever: Delete Forever
